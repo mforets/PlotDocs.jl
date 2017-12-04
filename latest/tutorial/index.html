@@ -812,12 +812,13 @@
 <h2 id="basic-plotting-line-plots">Basic Plotting: Line Plots</h2>
 <p>The most basic plots are line plots. Assuming you have installed Plots.jl via <code>Pkg.add("Plots")</code>, you can plot a line by calling <code>plot</code> on two vectors of numbers. For example:</p>
 <div class="code"><pre><span></span><span class="k">using</span> <span class="n">Plots</span>
-<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">:</span><span class="mi">10</span><span class="p">;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c"># These are the plotting data</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">:</span><span class="mi">10</span><span class="p">;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span> <span class="c"># These are the plotting data</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
 
 <p><img alt="first_plot" src="https://user-images.githubusercontent.com/1814174/28752263-dc198750-74cf-11e7-9d96-c61affb655d8.png" /></p>
+<p>The plot is displayed in a plot pane, a stand-alone window or the browser, depending on the environment and backend (see <a href="#plotting-backends">below</a>).</p>
 <p>In Plots.jl, every column is a <strong>series</strong>, i.e. a set of related points which form lines, surfaces, or other plotting primitives. Thus we can plot multiple lines by plotting a matrix of values and each column is interpreted as a separate line:</p>
 <div class="code"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">:</span><span class="mi">10</span><span class="p">;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="c"># 2 columns means two lines</span>
 <span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
