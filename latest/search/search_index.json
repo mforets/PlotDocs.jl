@@ -942,32 +942,32 @@
         }, 
         {
             "location": "/supported/", 
-            "text": "Series Types\n\n\nKey:\n\n\n\n\nOrange\n: the series type is natively supported by the backend.\n\n\nBlue\n: the series type is supported through series recipes.\n\n\n\n\n\n\n\n\nKeyword Arguments\n\n\n\n\n\n\nMarkers\n\n\n\n\n\n\nLine styles\n\n\n\n\n\n\nScales", 
+            "text": "Series Types\n\n\nKey:\n\n\n\n\nOrange\n: the series type is natively supported by the backend.\n\n\nBlue\n: the series type is supported through series recipes.\n\n\n\n\nYou need a Frames Capable browser to view this content.\n\n\n\n\n\nKeyword Arguments\n\n\nYou need a Frames Capable browser to view this content.\n\n\n\n\n\nMarkers\n\n\nYou need a Frames Capable browser to view this content.\n\n\n\n\n\nLine styles\n\n\nYou need a Frames Capable browser to view this content.\n\n\n\n\n\nScales\n\n\nYou need a Frames Capable browser to view this content.", 
             "title": "Supported Attributes"
         }, 
         {
             "location": "/supported/#series-types", 
-            "text": "Key:   Orange : the series type is natively supported by the backend.  Blue : the series type is supported through series recipes.", 
+            "text": "Key:   Orange : the series type is natively supported by the backend.  Blue : the series type is supported through series recipes.   You need a Frames Capable browser to view this content.", 
             "title": "Series Types"
         }, 
         {
             "location": "/supported/#keyword-arguments", 
-            "text": "", 
+            "text": "You need a Frames Capable browser to view this content.", 
             "title": "Keyword Arguments"
         }, 
         {
             "location": "/supported/#markers", 
-            "text": "", 
+            "text": "You need a Frames Capable browser to view this content.", 
             "title": "Markers"
         }, 
         {
             "location": "/supported/#line-styles", 
-            "text": "", 
+            "text": "You need a Frames Capable browser to view this content.", 
             "title": "Line styles"
         }, 
         {
             "location": "/supported/#scales", 
-            "text": "", 
+            "text": "You need a Frames Capable browser to view this content.", 
             "title": "Scales"
         }, 
         {
